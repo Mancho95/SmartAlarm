@@ -15,6 +15,7 @@ With this skill, your echo will not stop ringng until you solve a problem or ans
 This is the time to take extreme measures to fight your lazyness.
 
 <<<<<<<<<< STILL ON DEVELOPEMENT >>>>>>>>>>
+
 First languages which will be implemented:
 - Italian
 - English
@@ -22,5 +23,4 @@ First languages which will be implemented:
 First type of problems which you will have to solve:
 - Math
 
-Francesco Mancini   
-"# SmartAlarm" 
+Francesco Mancini
