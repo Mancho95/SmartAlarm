@@ -1,5 +1,3 @@
-This is the readme file.
-Backend resources for the "SmartAlarm" skill for Amazon Alexa.
 
 <<<<<<<<<< NOT YOUR USUAL ALARM CLOCK >>>>>>>>>>
 
