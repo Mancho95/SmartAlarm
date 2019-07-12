@@ -23,4 +23,6 @@ First languages which will be implemented:
 First type of problems which you will have to solve:
 - Math
 
+BE written in NodeJs 8.10
+
 Francesco Mancini
