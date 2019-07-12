@@ -1,0 +1,83 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "smart alarm",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CreateAlarm",
+                    "slots": [
+                        {
+                            "name": "DATE",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "TIME",
+                            "type": "AMAZON.TIME"
+                        }
+                    ],
+                    "samples": [
+                        "Sveglia alle {TIME} per {DATE}",
+                        "Crea una sveglia alle {TIME} per {DATE}",
+                        "Imposta una sveglia alle {TIME} per {DATE}",
+                        "Sveglia per {DATE} alle {TIME}",
+                        "Crea una sveglia per {DATE} alle {TIME}",
+                        "Imposta una sveglia per {DATE} alle {TIME}"
+                    ]
+                },
+                {
+                    "name": "DeleteAlarm",
+                    "slots": [
+                        {
+                            "name": "TIME",
+                            "type": "AMAZON.TIME"
+                        },
+                        {
+                            "name": "DATE",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "Annulla la sveglia alle {TIME} per {DATE}",
+                        "Rimuovi la sveglia alle {TIME} per {DATE}",
+                        "Cancella la sveglia alle {TIME} per {DATE}",
+                        "Annulla la sveglia per {DATE} alle {TIME}",
+                        "Rimuovi la sveglia per {DATE} alle {TIME}",
+                        "Cancella la sveglia per {DATE} alle {TIME}"
+                    ]
+                },
+                {
+                    "name": "DeactivateAlarm",
+                    "slots": [
+                        {
+                            "name": "NUMBER",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Secondo me è {NUMBER}",
+                        "Dovrebbe essere {NUMBER}",
+                        "{NUMBER}",
+                        "Il rislutato è {NUMBER}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
