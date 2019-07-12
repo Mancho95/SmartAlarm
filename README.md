@@ -6,7 +6,7 @@ Backend resources for the "SmartAlarm" skill for Amazon Alexa.
 "Alexa, postpone my alarm"
 "Alexa, PLEASE STOP"
 "Alexa, i wanna sleep"
-Who doesent say this sentences to alexa every morning when the alarm clock starts ringing?
+Who doesen't say this sentences to alexa every morning when the alarm clock starts ringing?
 I actually do, and sometimes is not helpful that Alexa listens to me, because i HAVE to wake up
 to not be late at work.
 
